@@ -56,7 +56,7 @@ public class if문 {
 			System.out.println("b는 0이 아닙니다.");
 		}
 		
-		//대소문자 구분없이 참인지 거짓인지 eualsIgnoreCase()
+		//대소문자 구분없이 참인지 거짓인지 equalsIgnoreCase()
 		if(c.equalsIgnoreCase("man") && b==0)
 		{
 			System.out.println("참입니다.");
